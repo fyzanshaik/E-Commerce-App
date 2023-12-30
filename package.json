@@ -1,22 +1,23 @@
 {
-  "name": "Node APP",
+  "name": "nodejs-complete-guide",
   "version": "1.0.0",
-  "description": "App I built using nodejs",
+  "description": "Complete Node.js Guide",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js",
-    "start-server": "node server.js"
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
   },
-  "author": "Faizan Shaik",
+  "author": "Maximilian Schwarzmüller",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^1.18.3"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
-    "ejs": "^3.1.9",
+    "ejs": "^2.6.1",
     "express": "^4.16.3",
-    "express-handlebars": "^7.1.2"
+    "express-handlebars": "^3.0.0",
+    "pug": "^2.0.3"
   }
 }
